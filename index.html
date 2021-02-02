@@ -7,7 +7,27 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBj8MXw26Mhxenv_iwdpfk_um4hlP2FvDQ",
+    authDomain: "moving-ball-f4291.firebaseapp.com",
+    databaseURL: "https://moving-ball-f4291-default-rtdb.firebaseio.com",
+    projectId: "moving-ball-f4291",
+    storageBucket: "moving-ball-f4291.appspot.com",
+    messagingSenderId: "488081489590",
+    appId: "1:488081489590:web:90c5878f92cd132d257017"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
